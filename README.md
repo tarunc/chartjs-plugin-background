@@ -1,4 +1,4 @@
-# chartjs-background
+# chartjs-plugin-background
 
 Fill the exact area of a ChartJS chart with a background
 

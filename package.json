@@ -1,5 +1,5 @@
 {
-  "name": "chartjs-background",
+  "name": "chartjs-plugin-background",
   "version": "0.0.1",
   "description": "Fill the exact area of a ChartJS chart with a background",
   "main": "src/chartjs-background.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tarunc/chartjs-background.git"
+    "url": "https://github.com/tarunc/chartjs-plugin-background.git"
   },
   "keywords": [],
   "author": "opensource@chaudhry.co",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tarunc/chartjs-background/issues"
+    "url": "https://github.com/tarunc/chartjs-plugin-background/issues"
   },
-  "homepage": "https://github.com/tarunc/chartjs-background",
+  "homepage": "https://github.com/tarunc/chartjs-plugin-background",
   "devDependencies": {
     "babel-core": "6.26.0",
     "babel-loader": "7.1.3",
