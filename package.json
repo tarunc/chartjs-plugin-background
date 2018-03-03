@@ -6,13 +6,13 @@
   "scripts": {
     "test": "gulp",
     "lint": "gulp lint",
-    "build": "gulp build",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/tarunc/chartjs-plugin-background.git"
   },
-  "keywords": [],
+  "keywords": ["chart.js", "chartjs-plugin", "chartjs", "chartjs-background", "background"],
   "author": "opensource@chaudhry.co",
   "license": "MIT",
   "bugs": {
