@@ -4,6 +4,7 @@ const Chart = (typeof(ChartJS) === 'function' ? ChartJS : window.Chart);
 
 // Create the plugin
 const chartjsBackground = {
+  id: 'backgroundcolor',
   beforeDraw(chart, easing) {
     if (chart.config.options.chartArea && chart.config.options.chartArea.backgroundColor) {
       var ctx = chart.chart.ctx;
