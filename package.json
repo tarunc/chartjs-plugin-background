@@ -1,6 +1,6 @@
 {
   "name": "chartjs-plugin-background",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Fill the exact area of a ChartJS chart with a background",
   "main": "dist/chartjs-background.js",
   "scripts": {

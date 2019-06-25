@@ -34,11 +34,20 @@
     beforeDraw: function beforeDraw(chart, easing) {
       if (chart.config.options.chartArea && chart.config.options.chartArea.backgroundColor) {
         var ctx = chart.chart.ctx;
-        var chartArea = chart.chartArea;
+        var chartAreaOptions = chart.config.options.chartArea;
 
         ctx.save();
-        ctx.fillStyle = chart.config.options.chartArea.backgroundColor;
-        ctx.fillRect(chartArea.left, chartArea.top, chartArea.right - chartArea.left, chartArea.bottom - chartArea.top);
+        ctx.fillStyle = chartAreaOptions.backgroundColor;
+        if (chartAreaOptions.coverAll) {
+          var _chart$chart = chart.chart,
+              width = _chart$chart.width,
+              height = _chart$chart.height;
+
+          ctx.fillRect(0, 0, width, height);
+        } else {
+          var chartArea = chart.chartArea;
+          ctx.fillRect(chartArea.left, chartArea.top, chartArea.right - chartArea.left, chartArea.bottom - chartArea.top);
+        }
         ctx.restore();
       }
     }

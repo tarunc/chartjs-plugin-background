@@ -12,7 +12,10 @@ The configuration for this plugin lives in `chartInstance.options.chartArea`. Th
 {
     options: {
         chartArea: {
-            backgroundColor: 'rgba(255, 255, 255, 0.8)'
+            // Set to background color
+            backgroundColor: 'rgba(255, 255, 255, 0.8)',
+            // To cover only chart area or everything
+            coverAll: false
         }
     }
 }
